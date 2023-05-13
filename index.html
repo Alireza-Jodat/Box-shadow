@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>box shadow</title>
+    </head>
+    <body>
+        <div class="shadow">
+            <p>Box shadow</p>
+        </div>
+        <div class="container">
+            <div>
+                <p>Horizontal <span class="span_vertical"></span></p>
+                <input type="range" value="0" min="-50" max="50"  class="vertical">
+            </div>
+            <div>        
+                <p>Vertical <span class="span_horizontal"></span></p>
+                <input type="range" value="0" min="-50" max="50" class="horizontal">
+            </div>
+            <div>
+                <p>Blur <span class="span_blur"></span></p>
+                <input type="range" value="0" min="0" max="50"  class="blur">
+            </div>
+            <div>
+                <p>Color <span class="span_color"></span></p>
+                <input type="color" class="color">
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>

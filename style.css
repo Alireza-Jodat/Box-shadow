@@ -1,0 +1,41 @@
+/*_________________________________________UNIVERSAL_SELECTOR_________________________________________*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: calibri;
+    transition: 0.2s;
+}
+/*_______________________________________________STYLE________________________________________________*/
+body {
+    height: 100vh;
+}
+.shadow {
+    width: 350px;
+    height: 250px;
+    background: #603695;
+    border-radius: 10px;
+    border: 3px solid #ffac0091;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -65%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 0px 0px black;
+}
+.container {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    transform: translate(-50% , 0%);
+}
+.container > div{
+    margin: 0px 12px;
+}
+span {
+    margin-left: 15px;
+}
